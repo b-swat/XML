@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ADLMSTRINGTABLE VERSION="1.0.0.0">
+    <STRING ID="IDS_NWLIC_BUTTON_YES">
+       <CAPTION>Sim</CAPTION>
+       <COMMENT>Button caption Yes</COMMENT>
+    </STRING>
+</ADLMSTRINGTABLE>

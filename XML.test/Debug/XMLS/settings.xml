@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ROXML version="1.0">
+  <header>
+    <contents type="configuration" version="1.5"/>
+    <product type="component" category="library" technology=".net" name="REX"/>
+  </header>
+
+  <settings>
+    <regionals>
+      <regional supported="true" name="pl-PL" country="波蘭" language="波蘭文" countrycode="48" LCID="1045"/>
+      <regional supported="true" name="en-US" country="美國" language="英文" countrycode="1" LCID="1033"/>
+      <regional supported="true" name="fr-FR" country="法國" language="法文" countrycode="33" LCID="1036"/>
+      <regional supported="true" name="it-IT" country="義大利" language="義大利文" countrycode="39" LCID="1040"/>
+      <regional supported="true" name="ko-KR" country="韓國" language="韓文" countrycode="82" LCID="1042"/>
+      <regional supported="true" name="ja-JP" country="日本" language="日文" countrycode="81" LCID="1041"/>
+      <regional supported="true" name="zh-CN" country="中國" language="中文" countrycode="86" LCID="2052"/>
+      <regional supported="true" name="de-DE" country="德國" language="德文" countrycode="49" LCID="1031"/>
+      <regional supported="true" name="ru-RU" country="俄羅斯" language="俄文" countrycode="70" LCID="1049"/>
+
+      <regional supported="false" name="en-CA" country="加拿大 (英文)" language="英文" countrycode="2" LCID="1252"/>
+      <regional supported="false" name="fr-CA" country="加拿大 (法文)" language="法文" countrycode="3" LCID="1252"/>
+      <regional supported="false" name="el-GR" country="希臘" language="希臘文" countrycode="30" LCID="1253"/>
+      <regional supported="false" name="nl-NL" country="荷蘭" language="荷蘭文" countrycode="31" LCID="1252"/>
+      <regional supported="false" name="nl-BE" country="比利時" language="法文" countrycode="32" LCID="1252"/>
+      <regional supported="true" name="es-ES" country="西班牙" language="西班牙文" countrycode="34" LCID="1034"/>
+      <regional supported="false" name="pt-PT" country="葡萄牙" language="葡萄牙文" countrycode="35" LCID="1252"/>
+      <regional supported="true" name="ro-RO" country="羅馬尼亞" language="羅馬尼亞文" countrycode="40" LCID="1250"/>
+      <regional supported="false" name="en-GB" country="英國" language="英文" countrycode="44" LCID="2057"/>
+      <regional supported="false" name="da-DK" country="丹麥" language="丹麥文" countrycode="45" LCID="1252"/>
+      <regional supported="false" name="sv-SE" country="瑞典" language="瑞典文" countrycode="46" LCID="1252"/>
+      <regional supported="false" name="nn-NO" country="挪威" language="挪威文" countrycode="47" LCID="1252"/>
+      <regional supported="false" name="se-FI" country="芬蘭" language="芬蘭文" countrycode="58" LCID="1252"/>
+      <regional supported="false" name="en-AU" country="澳大利亞" language="英文" countrycode="61" LCID="1252"/>
+      <regional supported="false" name="th-TH" country="泰國" language="泰文" countrycode="66" LCID="874"/>
+      <regional supported="false" name="lt-LT" country="立陶宛" language="立陶宛文" countrycode="71" LCID="1257"/>
+      <regional supported="false" name="et-EE" country="愛沙尼亞" language="愛沙尼亞文" countrycode="72" LCID="1257"/>
+      <regional supported="false" name="lv-LV" country="拉脫維亞" language="拉脫維亞文" countrycode="74" LCID="1257"/>
+      <regional supported="true" name="uk-UA" country="烏克蘭" language="烏克蘭文" countrycode="79" LCID="1251"/>
+      <regional supported="false" name="hi-IN" country="印度" language="印度文" countrycode="91" LCID="1081"/>
+
+      <regional supported="false" name="en-NZ" country="New Zealand" language="英文" countrycode="64" LCID="5129"/>
+      <regional supported="false" name="af-ZA" country="Republic of South Africa" language="英文" countrycode="27" LCID="2057"/>
+      <regional supported="false" name="de-AT" country="Austria" language="德文" countrycode="43" LCID="3079"/>      
+
+      <regional supported="true" name="hu-HU" country="匈牙利" language="匈牙利文" countrycode="36" LCID="1038"/>
+      <regional supported="true" name="cs-CZ" country="Czech Republic" language="Czech" countrycode="42" LCID="1029"/>
+      <regional supported="true" name="pt-BR" country="巴西" language="葡萄牙文" countrycode="55" LCID="1046"/>
+      <regional supported="true" name="zh-TW" country="台灣" language="繁體中文" countrycode="886" LCID="1028"/>            
+      
+      <regional supported="false" name="is-IS" country="Iceland" language="Icelandic" countrycode="04" LCID="1039"/>
+
+      <regional supported="false" name="Eurocode" country="Eurocode" language="" countrycode="99" LCID="0"/>
+      
+      <regional supported="false" name="de-CH" country="Switzerland" language="德文" countrycode="41" LCID="2055"/>
+      <regional supported="false" name="es-MX" country="Mexico" language="西班牙文" countrycode="52" LCID="2058"/>
+    </regionals>
+  </settings>
+</ROXML>

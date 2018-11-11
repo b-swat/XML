@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Com1-->
+<note>
+<!--Com2-->
+  <to:f>Tove<to>Tove<to>Tove<to>Tove</to></to><to>Tove</to><to>Tove</to>aaaaa</to></to:f>
+  <from name="sdas"     id = 'aaa'><!--Com3-->Jani<to>Tove</to>Jani</from>
+  <heading>Reminder</heading>
+  <body xmlns:h="http://www.w3.org/TR/html4/">Привет<![CDATA[CDATA TEXT BOX <>!!]]>QQQQQ</body>
+  <i/>
+  <j n="dasdsad" 
+  k="ddd"/>
+</note>
+<!--Com4-->
+
+

@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ADLMSTRINGTABLE VERSION="1.0.0.0">
+    <STRING ID="IDS_NWLIC_BUTTON_YES">
+       <CAPTION>Sim</CAPTION>
+       <COMMENT>Button caption Yes</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_BUTTON_NO">
+       <CAPTION>Não</CAPTION>
+       <COMMENT>Button caption No</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_BORROW_CAPTION1">
+       <CAPTION>Licença emprestada</CAPTION>
+       <COMMENT>License Borrow information title</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_BORROW_CAPTION2">
+       <CAPTION>Erro de empréstimo de licença</CAPTION>
+       <COMMENT>License Borrow Error title</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_RETURN_CAPTION1">
+       <CAPTION>Licença devolvida</CAPTION>
+       <COMMENT>License Return information title</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_RETURN_CAPTION2">
+       <CAPTION>Erro de devolução de licença</CAPTION>
+       <COMMENT>License Return Error title</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_RETURN_CAPTION3">
+       <CAPTION>Devolver licença emprestada</CAPTION>
+       <COMMENT>License Return Confirmation title</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_ERROR_CAPTION1">
+       <CAPTION>Alerta de licença indisponível</CAPTION>
+       <COMMENT>General License Unavailable error title</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_BORROW_ERROR_INVALID_MAX_TITLE">
+       <CAPTION>Não pode pedir uma licença emprestada neste momento.</CAPTION>
+       <COMMENT>Invalid maximum borrow hours specified dialog message</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_BORROW_ERROR_INVALID_MAX_DETAIL">
+       <CAPTION>O período de empréstimo estabelecido para o servidor de licenças não é válido.&lt;br&gt;&lt;br&gt;Contacte o administrador de sistema para repor o período de empréstimo para um valor de, pelo menos, um dia (24 horas).</CAPTION>
+       <COMMENT>Invalid maximum borrow hours specified dialog message</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_RETURN_NOW_DETAIL">
+       <CAPTION>Devolver a licença emprestada agora?</CAPTION>
+       <COMMENT>Return the borrowed license now confirmation question dialog message</COMMENT>
+    </STRING>  
+    <STRING ID="IDS_NWLIC_RETURN_SUCCESS_TITLE">
+       <CAPTION>A licença emprestada foi devolvida com êxito.</CAPTION>
+       <COMMENT>The borrowed license is returned back to the license server dialog message</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_BORROW_NOLIC_TITLE">
+       <CAPTION>Não existem licenças disponíveis para empréstimo. Tente novamente mais tarde.</CAPTION>
+       <COMMENT>No licenses available to borrow message</COMMENT>
+    </STRING>  
+    <STRING ID="IDS_NWLIC_BORROW_FAILED_TITLE">
+	 <CAPTION>Não pode pedir uma licença emprestada neste momento. Tente novamente mais tarde.</CAPTION>
+       <COMMENT>License cannot be borrowed at this time dialog message</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_BORROW_FAILED_NOTE_DETAIL">
+	 <CAPTION>Se este problema persistir, contacte o administrador de sistema.&lt;br&gt;&lt;br&gt;Nota: Pode continuar a utilizar o %1 enquanto está ligado ao servidor de licenças de rede.&lt;br&gt;&lt;br&gt;Erro: [%2]</CAPTION>
+       <COMMENT>No licenses available to borrow message displayed with the vendor error code and the product name</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_BORROW_FAILED_NO_NOTE_DETAIL">
+	 <CAPTION>Se este problema persistir, contacte o administrador de sistema.&lt;br&gt;&lt;br&gt;Erro: [%1]</CAPTION>
+       <COMMENT>No licenses available to borrow message displayed with the vendor error code</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_BORROW_ERROR_TITLE">
+	 <CAPTION>Ocorreu um erro inesperado de empréstimo de licença.</CAPTION>
+       <COMMENT>This message is due to inability to get the borrowing of license</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_BORROW_ERROR_DETAIL">
+	 <CAPTION>Não pode continuar a executar o %1 utilizando a licença emprestada.&lt;br&gt;&lt;br&gt;Para obter mais informações, contacte o administrador de sistema.&lt;br&gt;&lt;br&gt;Erro: [%2]</CAPTION>
+       <COMMENT>This message is due to inability to get the borrowing of license</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_BORROW_TOOLONG_TITLE">
+	 <CAPTION>Pode pedir esta licença emprestada durante um máximo de %1 dias.</CAPTION>
+       <COMMENT>This is borrow period ( maximum hours) specified is too long message</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_BORROW_TOOLONG_DETAIL">
+	 <CAPTION>Para repor o período de empréstimo de licença utilize o utilitário Empréstimo de licenças da Autodesk e tente novamente.&lt;br&gt;&lt;br&gt;Erro [%1]</CAPTION>
+       <COMMENT>This is borrow period (maximums hours) specified is too long message</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_LICENSING_ERROR_TITLE">
+	 <CAPTION>A Licença de rede não está disponível</CAPTION>
+       <COMMENT>Generic licensing error while trying to get the license from the license server displayed with the vendor error code</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_LICENSING_ERROR_DETAIL">
+	 <CAPTION>Causas comuns: todas as licenças estão em utilização, o servidor está em baixo ou a licença expirou. Entre em contacto com o administrador do sistema ou com o suporte.&lt;br&gt;&lt;br&gt;Erro [%1]</CAPTION>
+       <COMMENT>Generic licensing error while trying to get the license from the license server displayed with the vendor error code</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_LOST_LICENSE_CAPTION">
+	 <CAPTION>Alerta de licença indisponível</CAPTION>
+       <COMMENT>The connection to the license server is lost hence the license will not available dialog caption</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_LOST_LICENSE_TITLE">
+	 <CAPTION>A sua licença já não está disponível.</CAPTION>
+       <COMMENT>The connection to the license server is lost hence the license will not available dialog message</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_LOST_LICENSE_DETAIL">
+	 <CAPTION>Feche o produto e, em seguida, reinicie o mesmo para voltar a estabelecer a licença.</CAPTION>
+       <COMMENT>The connection to the license server is lost hence the license will not available dialog message</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_CALENDAR_MONTH1">
+       <CAPTION>Janeiro</CAPTION>
+       <COMMENT>First Month of the english calendar</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_CALENDAR_MONTH2">
+       <CAPTION>Fevereiro</CAPTION>
+       <COMMENT>Second Month of the english calendar</COMMENT>
+    </STRING>
+    <STRING ID="IDS_NWLIC_CALENDAR_MONTH3">
+       <CAPTION>Março</CAPTION>
+       <COMMENT>Third Month of the english calendar</COMMENT>
+    </STRING>   
+    <STRING ID="IDS_NWLIC_CALENDAR_MONTH4">
+       <CAPTION>Abril</CAPTION>
+       <COMMENT>Fourth Month of the english calendar</COMMENT>
+    </STRING>   
+    <STRING ID="IDS_NWLIC_CALENDAR_MONTH5">
+       <CAPTION>Maio</CAPTION>
+       <COMMENT>Fifth Month of the english calendar</COMMENT>
+    </STRING>   
+    <STRING ID="IDS_NWLIC_CALENDAR_MONTH6">
+       <CAPTION>Junho</CAPTION>
+       <COMMENT>Sixth Month of the english calendar</COMMENT>
+    </STRING>   
+    <STRING ID="IDS_NWLIC_CALENDAR_MONTH7">
+       <CAPTION>Julho</CAPTION>
+       <COMMENT>Seventh Month of the english calendar</COMMENT>
+    </STRING>   
+    <STRING ID="IDS_NWLIC_CALENDAR_MONTH8">
+       <CAPTION>Agosto</CAPTION>
+       <COMMENT>Eigth Month of the english calendar</COMMENT>
+    </STRING>   
+    <STRING ID="IDS_NWLIC_CALENDAR_MONTH9">
+       <CAPTION>Setembro</CAPTION>
+       <COMMENT>Ninth Month of the english calendar</COMMENT>
+    </STRING>   
+    <STRING ID="IDS_NWLIC_CALENDAR_MONTH10">
+       <CAPTION>Outubro</CAPTION>
+       <COMMENT>Tenth Month of the english calendar</COMMENT>
+    </STRING>   
+    <STRING ID="IDS_NWLIC_CALENDAR_MONTH11">
+       <CAPTION>Novembro</CAPTION>
+       <COMMENT>Eleventh Month of the english calendar</COMMENT>
+    </STRING>   
+    <STRING ID="IDS_NWLIC_CALENDAR_MONTH12">
+       <CAPTION>Dezembro</CAPTION>
+       <COMMENT>Twelth Month of the english calendar</COMMENT>
+    </STRING>   
+    <STRING ID="IDS_NWLIC_WEEK_DAY0">
+       <CAPTION>Domingo</CAPTION>
+       <COMMENT>First Day of the week</COMMENT>
+    </STRING>   
+    <STRING ID="IDS_NWLIC_WEEK_DAY1">
+       <CAPTION>Segunda-feira</CAPTION>
+       <COMMENT>Second Day of the week</COMMENT>
+    </STRING>   
+    <STRING ID="IDS_NWLIC_WEEK_DAY2">
+       <CAPTION>Terça-feira</CAPTION>
+       <COMMENT>Third Day of the week</COMMENT>
+    </STRING>   
+    <STRING ID="IDS_NWLIC_WEEK_DAY3">
+       <CAPTION>Quarta-feira</CAPTION>
+       <COMMENT>Fourth Day of the week</COMMENT>
+    </STRING>   
+    <STRING ID="IDS_NWLIC_WEEK_DAY4">
+       <CAPTION>Quinta-feira</CAPTION>
+       <COMMENT>Fifth Day of the week</COMMENT>
+    </STRING>   
+    <STRING ID="IDS_NWLIC_WEEK_DAY5">
+       <CAPTION>Sexta-feira</CAPTION>
+       <COMMENT>Sixth Day of the week</COMMENT>
+    </STRING>   
+    <STRING ID="IDS_NWLIC_WEEK_DAY6">
+       <CAPTION>Sábado</CAPTION>
+       <COMMENT>Seventh Day of the week</COMMENT>
+    </STRING>
+  <STRING ID="IDS_LICENSING_ERROR_CAPTION">
+    <CAPTION>Erro de licenciamento</CAPTION>
+    <COMMENT>Licensing error dialog title</COMMENT>
+  </STRING>
+  <STRING ID="IDS_LICTS_INIT_ERROR_TITLE">
+    <CAPTION>Não é possível inicializar o ficheiro adlm.</CAPTION>
+    <COMMENT>Adlm trusted storage initialization error title</COMMENT>
+  </STRING>
+  <STRING ID="IDS_LICTS_INVALIDPARAM_MSG">
+    <CAPTION>Parâmetro inválido.</CAPTION>
+    <COMMENT>Adlm trusted storage invalid parameter error message</COMMENT>
+  </STRING>
+  <STRING ID="IDS_LICTS_FLEX_INIT_ERROR_MSG_UNKNOWN">
+    <CAPTION>Erro desconhecido.</CAPTION>
+    <COMMENT>Adlm trusted storage initialization error message</COMMENT>
+  </STRING>  
+  <STRING ID="IDS_LICTS_FLEX_INIT_NOPROPHANDLE_MSG">
+    <CAPTION>O identificador de propriedades é inválido ou está em falta.</CAPTION>
+    <COMMENT>Adlm trusted storage initialization error message</COMMENT>
+  </STRING>  
+  <STRING ID="IDS_LICTS_FLEX_INIT_ERROR_MSG_1">
+    <CAPTION>Não é possível localizar o runtime de segurança.</CAPTION>
+    <COMMENT>Adlm trusted storage initialization error message</COMMENT>
+  </STRING>
+  <STRING ID="IDS_LICTS_FLEX_INIT_ERROR_MSG_2">
+    <CAPTION>Não é possível carregar o runtime de segurança.</CAPTION>
+    <COMMENT>Adlm trusted storage initialization error message</COMMENT>
+  </STRING>
+  <STRING ID="IDS_LICTS_FLEX_INIT_ERROR_MSG_3">
+    <CAPTION>A versão do SO é muito antiga.</CAPTION>
+    <COMMENT>Adlm trusted storage initialization error message</COMMENT>
+  </STRING>
+  <STRING ID="IDS_LICTS_FLEX_INIT_ERROR_MSG_4">
+    <CAPTION>A inicialização do runtime de segurança falhou.</CAPTION>
+    <COMMENT>Adlm trusted storage initialization error message</COMMENT>
+  </STRING>
+  <STRING ID="IDS_LICTS_FLEX_INIT_ERROR_MSG_5">
+    <CAPTION>Não é possível atribuir recursos.</CAPTION>
+    <COMMENT>Adlm trusted storage initialization error message</COMMENT>
+  </STRING>
+  <STRING ID="IDS_LICTS_FLEX_INIT_ERROR_MSG_6">
+    <CAPTION>O Preptool não foi executado desde a compilação.</CAPTION>
+    <COMMENT>Adlm trusted storage initialization error message</COMMENT>
+  </STRING>
+  <STRING ID="IDS_LICTS_FLEX_INIT_ERROR_MSG_7">
+    <CAPTION>Execute o flxInitLoad após um flxInitUnload.</CAPTION>
+    <COMMENT>Adlm trusted storage initialization error message</COMMENT>
+  </STRING>
+  <STRING ID="IDS_LICTS_FLEX_INIT_ERROR_MSG_8">
+    <CAPTION>A cadeia de caminho não está em UTF-8?</CAPTION>
+    <COMMENT>Adlm trusted storage initialization error message</COMMENT>
+  </STRING>
+  <STRING ID="IDS_LICTS_FLEX_INIT_ERROR_MSG_9">
+    <CAPTION>Erro ao criar URL.</CAPTION>
+    <COMMENT>Adlm trusted storage initialization error message</COMMENT>
+  </STRING>
+  <STRING ID="IDS_LICTS_FLEX_INIT_ERROR_MSG_10">
+    <CAPTION>Erro ao criar um caminho a partir de um URL.</CAPTION>
+    <COMMENT>Adlm trusted storage initialization error message</COMMENT>
+  </STRING>
+  <STRING ID="IDS_LICTS_FLEX_INIT_ERROR_MSG_11">
+    <CAPTION>O framework especificado pelo ID de grupo não foi carregado.</CAPTION>
+    <COMMENT>Adlm trusted storage initialization error message</COMMENT>
+  </STRING>
+  <STRING ID="IDS_LICTS_FLEX_INIT_ERROR_MSG_12">
+    <CAPTION>O ID de grupo não é válido.</CAPTION>
+    <COMMENT>Adlm trusted storage initialization error message</COMMENT>
+  </STRING>
+  <STRING ID="IDS_LICTS_FLEX_INIT_ERROR_MSG_13">
+    <CAPTION>O caminho calculado é demasiado longo.</CAPTION>
+    <COMMENT>Adlm trusted storage initialization error message</COMMENT>
+  </STRING>
+  <STRING ID="IDS_LICTS_FLEX_INIT_ERROR_MSG_20">
+    <CAPTION>Serviço não instalado.</CAPTION>
+    <COMMENT>Adlm trusted storage initialization error message</COMMENT>
+  </STRING>
+  <STRING ID="IDS_LICTS_FLEX_INIT_ERROR_MSG_21">
+    <CAPTION>Não possui direitos suficientes para entrar em contacto com o serviço.</CAPTION>
+    <COMMENT>Adlm trusted storage initialization error message</COMMENT>
+  </STRING>
+  <STRING ID="IDS_LICUT_UB_INIT_ERROR">
+    <CAPTION>Erro ao inicializar o componente de Controlo de utilização.</CAPTION>
+    <COMMENT>Adlm usage tracking initialization error message</COMMENT>
+  </STRING>
+</ADLMSTRINGTABLE>

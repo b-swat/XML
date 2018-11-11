@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="unicode"?>
+<ReplyTokens>
+    <LineStartTokens>
+        <StartToken>_____</StartToken>
+        <StartToken>--------</StartToken>
+    </LineStartTokens>
+    <DataTokens NumberRequired="2" StartMatchDataToken="Från:">
+        <OptionalDataToken>Skickat:</OptionalDataToken>
+        <OptionalDataToken>Till:</OptionalDataToken>
+        <OptionalDataToken>Ämne:</OptionalDataToken>
+        <OptionalDataToken>Datum:</OptionalDataToken>
+        <OptionalDataToken>Cc:</OptionalDataToken>
+        <OptionalDataToken>Bcc:</OptionalDataToken>
+    </DataTokens>
+    <BeginEndTokens>
+        <BeginEndToken Begin="Vid" End="skrev:"></BeginEndToken>
+        <BeginEndToken Begin="På" End="skrev:"></BeginEndToken>
+        <BeginEndToken Begin="---" End="skrev:"></BeginEndToken>
+    </BeginEndTokens>
+    <SubjectTokens>
+        <SubjectToken>sv:</SubjectToken>
+        <SubjectToken>ämne:</SubjectToken>
+        <SubjectToken>vid:</SubjectToken>
+        <SubjectToken>vid:</SubjectToken>
+        <SubjectToken>godkänd:</SubjectToken>
+        <SubjectToken>uppdaterad:</SubjectToken>
+        <SubjectToken>avböjt:</SubjectToken>
+        <SubjectToken>avbröts:</SubjectToken>
+    </SubjectTokens>
+</ReplyTokens>

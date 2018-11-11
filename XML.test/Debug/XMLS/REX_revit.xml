@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<options product="REX" name="REX">
+	<option name="rev.13" description="Autodesk Inventor" description_full="Импорт/Экспорт" version="" domain="" date="">
+		<option name="DInventor2Robot" description="Интеграция с Autodesk Inventor Frame Analysis" description_full="Интеграция с Autodesk Inventor Frame Analysis" version="0.5" domain="" date="">
+		  <data>
+			<data.run type="ASSEMBLY" path="DInventor2Robot" file="DInventor2Robot.dll" class="REX.DInventor2Robot.Application" direct_revit_class="REX.DInventor2Robot.DirectRevitAccess"/>
+		  </data>
+		</option>
+	</option>
+</options>

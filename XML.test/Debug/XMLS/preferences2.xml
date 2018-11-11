@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ROXML version="1.0">
+  <header>
+    <contents type="configuration" version="1.5"/>
+    <product type="component" category="library" technology=".net" name="REX"/>
+  </header>
+  <defined>
+    <regional name="en-US"/>
+    <regional name="pl-PL"/>
+    <regional name="fr-FR"/>
+    <regional name="it-IT"/>
+    <regional name="ko-KR"/>
+    <regional name="ja-JP"/>
+    <regional name="zh-CN"/>
+    <regional name="de-DE"/>
+    <regional name="ru-RU"/>
+    <regional name="en-CA"/>
+    <regional name="fr-CA"/>
+    <regional name="el-GR"/>
+    <regional name="nl-NL"/>
+    <regional name="nl-BE"/>
+    <regional name="es-ES"/>
+    <regional name="pt-PT"/>
+    <regional name="ro-RO"/>
+    <regional name="en-GB"/>
+    <regional name="da-DK"/>
+    <regional name="sv-SE"/>
+    <regional name="nn-NO"/>
+    <regional name="se-FI"/>
+    <regional name="en-AU"/>
+    <regional name="th-TH"/>
+    <regional name="lt-LT"/>
+    <regional name="et-EE"/>
+    <regional name="lv-LV"/>
+    <regional name="uk-UA"/>
+    <regional name="hi-IN"/>
+    <regional name="hu-HU"/>
+    <regional name="cs-CZ"/>
+    <regional name="pt-BR"/>
+    <regional name="zh-TW"/>
+    <regional name="af-ZA"/>
+    <regional name="de-AT"/>
+    <regional name="en-NZ"/>
+    <regional name="Eurocode"/>
+    <regional name="de-CH"/>
+    <regional name="es-MX"/>
+	<regional name="is-IS"/>
+  </defined>
+  <catalogues>
+    <catalogue name="Profiles" syspaths="sysnPTDF_DBSECT" families="no" userdbs="yes">
+      <!-- "no"; "certificated"; "yes" -->
+      <regionals name="en-US">
+        <database name="Aiscpro" fullname="American hot rolled" description="American hot rolled shapes (13th Edition)" default="true"/>
+        <database name="Aisipro" fullname="American cold formed" description="American cold formed shapes"/>
+        <database name="Arbupro" fullname="American (Arbed)" description="American steel section (Arbed)"/>
+        <database name="Woodpro" fullname="Timber (Imperial)" description="Timber section database (Imperial)"/>
+      </regionals>
+      <regionals name="pl-PL">
+	<database name="Rpln7Pro" fullname="Polish standard" description="Polish steel Standard sections (2007)"  default="true"/>                	
+        <database name="Stalpro" fullname="Steel (Stalprodukt SA)" description="Steel sections (Stalprodukt SA)"/>
+        <database name="Europro" fullname="European steel" description="European steel sections"/>
+        <database name="Drewpro" fullname="Polish timber" description="Polish timber sections (PN-75/D-96000)"/>
+        <database name="EC5pro" fullname="Timber (Eurocode 5)" description="Timber sections (Eurocode 5)"/>
+      </regionals>
+      <regionals name="fr-FR">
+        <database name="Rcatpro" fullname="French steel" description="French steel sections" default="true"/>
+        <database name="Simplpro" fullname="French steel" description="French steel sections"/>
+        <database name="Otuapro" fullname="Steel (Otua)" description="French steel sections (Otua)"/>
+        <database name="Europro" fullname="European steel" description="European steel sections"/>
+        <database name="Resinpro" fullname="Timber" description="Timber section"/>
+        <database name="EC5pro" fullname="Timber (Eurocode 5)" description="Timber sections (Eurocode 5)"/>
+      </regionals>
+      <regionals name="it-IT">
+        <database name="Unipro" fullname="UNI Italy" description="Italian steel sections (UNI)" default="true"/>
+        <database name="Europro" fullname="European steel" description="European steel sections"/>
+        <database name="EC5pro" fullname="Timber (Eurocode 5)" description="Timber sections (Eurocode 5)"/>
+      </regionals>
+      <regionals name="ko-KR">
+       <database name="Koreapro" fullname="Korean steel" description="Korean steel sections"  default="true"/>
+       <database name="Ukstpro" fullname="British hot rolled" description="British hot rolled sections"/>
+       <database name="Aiscpro" fullname="American hot rolled" description="American hot rolled shapes (13th Edition)"/>
+       <database name="WOODMpro" fullname="Timber (Metric)" description="Timber sections (Metric)"/>
+      </regionals>
+      <regionals name="ja-JP">
+        <database name="Japanpro" fullname="Japanese steel" description="Japanese steel sections" default="true"/>
+        <database name="Aiscpro" fullname="American hot rolled" description="American hot rolled shapes (13th Edition)"/>
+        <database name="Aisipro" fullname="American cold formed" description="American cold formed shapes"/>
+       <database name="WOODMpro" fullname="Timber (Metric)" description="Timber sections (Metric)"/>
+      </regionals>
+      <regionals name="zh-CN">
+        <database name="chin9pro" fullname="Chinese steel" description="Chinese steel sections (2009)" default="true"/>
+        <database name="chinapro" fullname="Chinese steel" description="Chinese steel sections"/>
+        <database name="Ukstpro" fullname="British hot rolled" description="British hot rolled sections"/>
+        <database name="Aiscpro" fullname="American hot rolled" description="American hot rolled shapes (13th Edition)"/>
+       <database name="WOODMpro" fullname="Timber (Metric)" description="Timber sections (Metric)"/>
+      </regionals>
+      <regionals name="de-DE">
+        <database name="Dinpro" fullname="German steel" description="German steel sections (22nd Edition)" default="true"/>
+        <database name="Europro" fullname="European steel" description="European steel sections"/>
+        <database name="EC5pro" fullname="Timber (Eurocode 5)" description="Timber sections (Eurocode 5)"/>
+      </regionals>
+      <regionals name="de-AT">
+        <database name="Europro" fullname="European steel" description="European steel sections" default="true"/>
+        <database name="EC5pro" fullname="Timber (Eurocode 5)" description="Timber sections (Eurocode 5)"/>
+		<database name="Dinpro" fullname="German steel" description="German steel sections (22nd Edition)"/>
+      </regionals>
+	   <regionals name="de-CH">
+        <database name="Europro" fullname="European steel" description="European steel sections" default="true"/>
+        <database name="EC5pro" fullname="Timber (Eurocode 5)" description="Timber sections (Eurocode 5)"/>
+		<database name="Dinpro" fullname="German steel" description="German steel sections (22nd Edition)"/>
+      </regionals>
+	  <regionals name="ru-RU">
+        <database name="Gostpro" fullname="Russian steel" description="Russian steel sections" default="true"/>
+        <database name="Gosttpro" fullname="Russian steel pipes" description="Russian steel pipes sections"/>
+        <database name="Stopro"    fullname="Russian (STO ASCHM 20-93)" description="Russian steel sections (STO ASCHM 20-93)"/>
+       <database name="WOODMpro" fullname="Timber (Metric)" description="Timber sections (Metric)"/>
+      </regionals>
+      <regionals name="en-CA">
+        <database name="Cisc9pro" fullname="Canadian steel (ed.9)" description="Canadian steel shapes (9th Edition)" default="true"/>
+        <database name="Ciscpro" fullname="Canadian steel" description="Canadian steel shapes"/>
+        <database name="Aiscpro" fullname="American hot rolled shapes" description="American hot rolled shapes (13th Edition)"/>
+        <database name="Aisipro" fullname="American cold formed" description="American cold formed shapes"/>
+        <database name="Arbupro" fullname="American (Arbed)" description="American steel sections (ARBED)"/>
+       <database name="WOODMpro" fullname="Timber (Metric)" description="Timber sections (Metric)"/>
+      </regionals>
+      <regionals name="fr-CA">
+        <database name="Cisc9pro" fullname="Canadian steel (ed.9)" description="Canadian steel shapes (9th Edition)" default="true"/>
+        <database name="Ciscpro" fullname="Canadian steel" description="Canadian steel shapes"/>
+        <database name="Aiscpro" fullname="American hot rolled" description="American hot rolled shapes (13th Edition)"/>
+        <database name="Aisipro" fullname="American cold formed" description="American cold formed shapes"/>
+        <database name="Arbupro" fullname="American (Arbed)" description="American steel sections (Arbed)"/>
+       <database name="WOODMpro" fullname="Timber (Metric)" description="Timber sections (Metric)"/>
+      </regionals>
+      <regionals name="el-GR">
+        <database name="Europro" fullname="European steel" description="European steel sections" default="true"/>
+        <database name="EC5pro" fullname="Timber (Eurocode 5)" description="Timber sections (Eurocode 5)"/>
+      </regionals>
+      <regionals name="nl-NL">
+        <database name="tsnlpro" fullname="Steel (Technosoft NL)" description="Steel section (Technosoft NL)" default="true"/>
+        <database name="Arclrpro" fullname="Steel (ARCELOR)" description="Steel sections (ARCELOR)"/>
+        <database name="Coruspro" fullname="Steel (Corus)" description="Steel sections(Corus)"/>
+        <database name="Europro" fullname="European steel" description="European steel sections"/>   
+	    <database name="EC5pro" fullname="Timber (Eurocode 5)" description="Timber sections (Eurocode 5)"/>
+      </regionals>
+      <regionals name="nl-BE">
+        <database name="Arclrpro" fullname="Steel (ARCELOR)" description="Steel sections (ARCELOR)"  default="true"/>
+        <database name="Coruspro" fullname="Steel (Corus)" description="Steel sections(Corus)"/>
+        <database name="Europro" fullname="European steel" description="European steel sections"/>   
+		<database name="EC5pro" fullname="Timber (Eurocode 5)" description="Timber sections (Eurocode 5)"/>
+      </regionals>
+      <regionals name="es-ES">
+        <database name="Europro" fullname="European steel" description="European steel sections" default="true"/>
+        <database name="EC5pro" fullname="Timber (Eurocode 5)" description="Timber sections (Eurocode 5)"/>
+      </regionals>
+	  <regionals name="is-IS">
+        <database name="Europro" fullname="European steel" description="European steel sections" default="true"/>
+        <database name="EC5pro" fullname="Timber (Eurocode 5)" description="Timber sections (Eurocode 5)"/>
+      </regionals>
+      <regionals name="pt-PT">
+        <database name="Europro" fullname="European steel" description="European steel sections" default="true"/>
+        <database name="EC5pro" fullname="Timber (Eurocode 5)" description="Timber sections (Eurocode 5)"/>
+      </regionals>
+      <regionals name="ro-RO">
+        <database name="Romanpro" fullname="Romanian steel" description="Romanian steel sections" default="true"/>
+        <database name="Europro" fullname="European steel" description="European steel sections"/>
+        <database name="EC5pro" fullname="Timber (Eurocode 5)" description="Timber sections (Eurocode 5)"/>
+      </regionals>
+      <regionals name="en-GB">
+        <database name="Ukstpro" fullname="British hot rolled" description="British hot rolled sections" default="true"/>
+        <database name="Simplpro" fullname="French steel" description="French steel sections"/>
+        <database name="Aiscpro" fullname="American hot rolled" description="American hot rolled shapes (13th Edition)"/>
+        <database name="Europro" fullname="European steel" description="European steel sections"/>
+        <database name="EC5pro" fullname="Timber (Eurocode 5)" description="Timber sections (Eurocode 5)"/>
+        <database name="WOODMpro" fullname="Timber (Metric)" description="Timber sections (Metric)"/>
+      </regionals>
+      <regionals name="da-DK">
+        <database name="Europro" fullname="European steel" description="European steel sections" default="true"/>
+        <database name="Rtrkkpro" fullname="Tubular (Rautarruukki)" description="Tubular steel section (Rautarruukki)"/>
+        <database name="EC5pro" fullname="Timber (Eurocode 5)" description="Timber sections (Eurocode 5)"/>
+      </regionals>
+      <regionals name="sv-SE">
+        <database name="Bsk06pro" fullname="Swedish (BSK o6)" description="Swedish steel sections (BSK o6)" default="true"/>
+        <database name="Europro" fullname="European steel" description="European steel sections"/>
+        <database name="EC5pro" fullname="Timber (Eurocode 5)" description="Timber sections (Eurocode 5)"/>
+      </regionals>
+      <regionals name="nn-NO">
+        <database name="Ns34pro" fullname="Norwegian (NS 3472)" description="Norwegian Steel Profile (NS 3472)" default="true"/>
+        <database name="Ukstpro" fullname="British hot rolled" description="British hot rolled sections"/>
+        <database name="Europro" fullname="European steel" description="European steel sections"/>
+        <database name="EC5pro" fullname="Timber (Eurocode 5)" description="Timber sections (Eurocode 5)"/>
+      </regionals>
+      <regionals name="se-FI">
+        <database name="Suomipro" fullname="Finnish steel" description="Finnish steel sections" default="true"/>
+        <database name="Rtrkkpro" fullname="Tubular (Rautarruukki)" description="Tubular steel sections (Rautarruukki)"/>
+        <database name="Europro" fullname="European steel" description="European steel sections"/>
+        <database name="EC5pro" fullname="Timber (Eurocode 5)" description="Timber sections (Eurocode 5)"/>
+      </regionals>
+      <regionals name="en-AU">
+        <database name="Auspro" fullname="Australian steel"    description="Australian sections (oneSteel and Lysaght)" default="true"/>
+        <database name="Aiscpro" fullname="American hot rolled" description="American hot rolled shapes (13th Edition)"/>
+        <database name="Ukstpro" fullname="British hot rolled"  description="British hot rolled sections"/>
+        <database name="WOODMpro" fullname="Timber (Metric)" description="Timber sections (Metric)"/>
+      </regionals>
+      <regionals name="th-TH">
+        <database name="Thaipro" fullname="Thai steel" description="Thai steel sections" default="true"/>
+        <database name="Aiscpro" fullname="American hot rolled" description="American hot rolled sections (13th Edition)"/>
+        <database name="Ukstpro" fullname="British hot rolled" description="British hot rolled sections"/>
+        <database name="WOODMpro" fullname="Timber (Metric)" description="Timber sections (Metric)"/>
+      </regionals>
+      <regionals name="lt-LT">
+        <database name="Europro" fullname="European steel" description="European steel sections" default="true"/>
+        <database name="Gostlpro" fullname="Russian steel" description="Russian steel sections (Latin)"/>
+        <database name="EC5pro" fullname="Timber (Eurocode 5)" description="Timber sections (Eurocode 5)"/>
+      </regionals>
+      <regionals name="et-EE">
+        <database name="Europro" fullname="European steel" description="European steel sections" default="true"/>
+        <database name="Gostlpro" fullname="Russian steel" description="Russian steel sections (Latin)"/>  
+        <database name="EC5pro" fullname="Timber (Eurocode 5)" description="Timber sections (Eurocode 5)"/>
+      </regionals>
+      <regionals name="lv-LV">
+        <database name="Europro" fullname="European steel" description="European steel sections" default="true"/>
+        <database name="Gostlpro" fullname="Russian steel" description="Russian steel sections (Latin)"/>
+        <database name="EC5pro" fullname="Timber (Eurocode 5)" description="Timber sections (Eurocode 5)"/>
+      </regionals>
+      <regionals name="uk-UA">
+        <database name="Gostpro" fullname="Russian steel" description="Russian steel sections" default="true"/>
+        <database name="Gosttpro" fullname="Russian pipes" description="Russian steel pipes sections"/>
+        <database name="Stopro" fullname="Russian (STO ASCHM 20-93)" description="Russian steel sections (STO ASCHM 20-93)"/>
+       <database name="WOODMpro" fullname="Timber (Metric)" description="Timber sections (Metric)"/>
+      </regionals>
+      <regionals name="hi-IN">
+        <database name="Is808pro" fullname="Indian (IS808:1989)" description="Indian Hot rolled shapes (IS808:1989)" default="true"/>
+        <database name="Indiapro" fullname="Indian steel" description="Indian structural steel sections"/>
+        <database name="Aiscpro" fullname="American hot rolled" description="American hot rolled shapes (13th Edition)"/>
+        <database name="Ukstpro" fullname="British hot rolled" description="British hot rolled sections"/>
+       <database name="WOODMpro" fullname="Timber (Metric)" description="Timber sections (Metric)"/>
+      </regionals>
+      <regionals name="Eurocode">
+        <database name="Europro" fullname="European steel" description="European steel sections" default="true"/>
+        <database name="EC5pro" fullname="Timber (Eurocode 5)" description="Timber sections (Eurocode 5)"/>
+      </regionals>
+      <regionals name="hu-HU">
+        <database name="Europro" fullname="European steel" description="European steel sections" default="true"/>
+        <database name="EC5pro" fullname="Timber (Eurocode 5)" description="Timber sections (Eurocode 5)"/>
+      </regionals>
+      <regionals name="cs-CZ">
+        <database name="Europro" fullname="European steel" description="European steel sections" default="true"/>
+        <database name="EC5pro" fullname="Timber (Eurocode 5)" description="Timber sections (Eurocode 5)"/>
+      </regionals>
+      <regionals name="zh-TW">
+        <database name="chin9pro" fullname="Chinese steel" description="Chinese steel sections (2009)" default="true"/>
+        <database name="chinapro" fullname="Chinese steel" description="Chinese steel sections"/>
+        <database name="Ukstpro" fullname="British hot rolled" description="British hot rolled sections"/>
+        <database name="Aiscpro" fullname="American hot rolled" description="American hot rolled shapes (13th Edition)"/>
+       <database name="WOODMpro" fullname="Timber (Metric)" description="Timber sections (Metric)"/>
+      </regionals>
+      <regionals name="pt-BR">
+       <database name="Aiscpro" fullname="American hot rolled" description="American hot rolled shapes (13th Edition)" default="true"/>
+       <database name="WOODMpro" fullname="Timber (Metric)" description="Timber sections (Metric)"/>
+      </regionals>
+	  <regionals name="af-ZA">
+        <database name="ZApro" fullname="SAISC 2010" description="South African Section Database" default="true"/>
+      </regionals>
+	  <regionals name="en-NZ">
+	    <database name="NZLpro" fullname="new Zeland steel"  description="new Zeland steel sections" default="true"/>
+      </regionals>
+	   <regionals name="es-MX">
+       <database name="Aiscpro" fullname="American hot rolled" description="American hot rolled shapes (13th Edition)" default="true"/>
+       <database name="WOODMpro" fullname="Timber (Metric)" description="Timber sections (Metric)"/>
+      </regionals>
+      <database name="Aus2pro" fullname="Australian (old)" description="Australian steel sections (old)"/>
+      <database name="Boispro" fullname="Timber" description="Timber sections"/>
+      <database name="Borgapro" fullname="Steel (Borga Hale)" description="Steel Sections (Borga Hale)"/>
+      <database name="BSKpro" fullname="Swedish (BSK 99)" description="Swedish steel sections (BSK 99)"/>
+      <database name="Coldpro" fullname="Steel cold-formed" description="Steel cold-formed sections"/>
+      <database name="ESRpro" fullname="ES Reports (2006)" description="ES Reports (April 2006)"/>
+      <database name="Kertopro" fullname="Timber (Kerto)" description="Timber sections (Kerto)"/>
+      <database name="Linpro" fullname="Steel (Lindab)" description="Steel sections (Lindab)"/>
+      <database name="NApro" fullname="North America standard" description="North America standard for coldformed Framing (February 2007)"/>
+      <database name="Prupro" fullname="Thin (Pruszynski)" description="Thin steel sections (Pruszynski)"/>
+      <database name="Rplnpro" fullname="Polish standard" description="Polish steel Standard sections (2004)"/>
+      <database name="RUninpro" fullname="Steel (Multibeam)" description="Steel  cold-formed sections (Multibeam)"/>
+      <database name="Sadefpro" fullname="Steel (Sadef)" description="Steel sections (Sadef)"/>
+      <database name="Saiscpro" fullname="Steel (SA structural)" description="Steel sections (SA structural)"/>
+      <database name="SJIJST" fullname="SJI Joists" description="Steel Joist Institute Database"/>
+      <database name="SSMApro" fullname="Steel (SSMA)" description="Steel sections (Steel Stud Manufacturers Association)"/>
+      <database name="STOLpro" fullname="Russian (STO ASCHM 20-93)" description="Russian steel sections (STO ASCHM 20-93 Latin)"/>
+      <database name="TUpro" fullname="Russian (TU)" description="Russian steel  sections (TU)"/>
+    </catalogue>
+    <catalogue name="Bolts" syspaths="sysnPTDF_DBCONN" families="no" userdbs="no">
+      <regionals name="en-US">
+        <database name="bolts_ASTM_imp" fullname="ASTM bolts" description="ASTM bolts database(Imperial)" default="true"/>
+        <database name="bolts_ASTM_met" fullname="ASTM bolts" description="ASTM bolts database(Metric)"/>
+      </regionals>
+      <regionals name="pl-PL">
+        <database name="bolts_PN_stand" fullname="PN-90/03200 bolts" description="PN bolts standard database" default="true"/>
+        <database name="bolts_EN_ISO4014" fullname="EN ISO 4014 bolts" description="Hexagon head bolts - Product grades A and B"/>
+      </regionals>
+      <regionals name="fr-FR">
+        <database name="bolts_NF" fullname="NF Standard bolts" description="NF bolts standard database" default="true"/>
+      </regionals>
+      <regionals name="it-IT">
+        <database name="bolts_EN_ISO4014" fullname="EN ISO 4014 bolts" description="Hexagon head bolts - Product grades A and B" default="true"/>
+      </regionals>
+      <regionals name="ja-JP">
+        <database name="bolts_EN_ISO4014" fullname="EN ISO 4014 bolts" description="Hexagon head bolts - Product grades A and B" default="true"/>
+      </regionals>
+      <regionals name="zh-CN">
+        <database name="bolts_EN_ISO4014" fullname="EN ISO 4014 bolts" description="Hexagon head bolts - Product grades A and B" default="true"/>
+      </regionals>
+      <regionals name="ko-KR">
+        <database name="bolts_EN_ISO4014" fullname="EN ISO 4014 bolts" description="Hexagon head bolts - Product grades A and B" default="true"/>
+      </regionals>
+      <regionals name="de-DE">
+        <database name="bolts_EN_ISO4014" fullname="EN ISO 4014 bolts" description="Hexagon head bolts - Product grades A and B" default="true"/>
+      </regionals>
+	  <regionals name="de-AT">
+        <database name="bolts_EN_ISO4014" fullname="EN ISO 4014 bolts" description="Hexagon head bolts - Product grades A and B" default="true"/>
+      </regionals>
+	   <regionals name="de-CH">
+        <database name="bolts_EN_ISO4014" fullname="EN ISO 4014 bolts" description="Hexagon head bolts - Product grades A and B" default="true"/>
+      </regionals>
+      <regionals name="ru-RU">
+        <database name="bolts_EN_ISO4014" fullname="EN ISO 4014 bolts" description="Hexagon head bolts - Product grades A and B" default="true"/>
+      </regionals>
+      <regionals name="en-CA">
+        <database name="bolts_ASTM_met" fullname="ASTM bolts" description="ASTM bolts database(Metric)" default="true"/>
+      </regionals>
+      <regionals name="fr-CA">
+        <database name="bolts_ASTM_met" fullname="ASTM bolts" description="ASTM bolts database(Metric)" default="true"/>
+      </regionals>
+      <regionals name="el-GR">
+        <database name="bolts_EN_ISO4014" fullname="EN ISO 4014 bolts" description="Hexagon head bolts - Product grades A and B" default="true"/>
+      </regionals>
+      <regionals name="nl-NL">
+        <database name="bolts_EN_ISO4014" fullname="EN ISO 4014 bolts" description="Hexagon head bolts - Product grades A and B" default="true"/>
+      </regionals>
+      <regionals name="nl-BE">
+        <database name="bolts_EN_ISO4014" fullname="EN ISO 4014 bolts" description="Hexagon head bolts - Product grades A and B" default="true"/>
+      </regionals>
+      <regionals name="es-ES">
+        <database name="bolts_EN_ISO4014" fullname="EN ISO 4014 bolts" description="Hexagon head bolts - Product grades A and B" default="true"/>
+      </regionals>
+      <regionals name="pt-PT">
+        <database name="bolts_EN_ISO4014" fullname="EN ISO 4014 bolts" description="Hexagon head bolts - Product grades A and B" default="true"/>
+      </regionals>
+      <regionals name="ro-RO">
+        <database name="bolts_EN_ISO4014" fullname="EN ISO 4014 bolts" description="Hexagon head bolts - Product grades A and B" default="true"/>
+      </regionals>
+      <regionals name="en-GB">
+        <database name="bolts_EN_ISO4014" fullname="EN ISO 4014 bolts" description="Hexagon head bolts - Product grades A and B" default="true"/>
+      </regionals>
+      <regionals name="da-DK">
+        <database name="bolts_EN_ISO4014" fullname="EN ISO 4014 bolts" description="Hexagon head bolts - Product grades A and B" default="true"/>
+      </regionals>
+      <regionals name="sv-SE">
+        <database name="bolts_EN_ISO4014" fullname="EN ISO 4014 bolts" description="Hexagon head bolts - Product grades A and B" default="true"/>
+      </regionals>
+      <regionals name="nn-NO">
+        <database name="bolts_EN_ISO4014" fullname="EN ISO 4014 bolts" description="Hexagon head bolts - Product grades A and B" default="true"/>
+      </regionals>
+	   <regionals name="is-IS">
+        <database name="bolts_EN_ISO4014" fullname="EN ISO 4014 bolts" description="Hexagon head bolts - Product grades A and B" default="true"/>
+      </regionals>
+      <regionals name="se-FI">
+        <database name="bolts_EN_ISO4014" fullname="EN ISO 4014 bolts" description="Hexagon head bolts - Product grades A and B" default="true"/>
+      </regionals>
+      <regionals name="en-AU">
+        <database name="bolts_ASTM_met" fullname="ASTM bolts" description="ASTM bolts database(Metric)" default="true"/>
+      </regionals>
+	  <regionals name="en-NZ">
+	    <database name="bolts_ASTM_met" fullname="ASTM bolts" description="ASTM bolts database(Metric)" default="true"/>
+      </regionals>
+	   <regionals name="es-MX">
+	    <database name="bolts_ASTM_met" fullname="ASTM bolts" description="ASTM bolts database(Metric)" default="true"/>
+      </regionals>
+      <regionals name="th-TH">
+        <database name="bolts_ASTM_met" fullname="ASTM bolts" description="ASTM bolts database(Metric)" default="true"/>
+      </regionals>
+      <regionals name="lt-LT">
+        <database name="bolts_EN_ISO4014" fullname="EN ISO 4014 bolts" description="Hexagon head bolts - Product grades A and B" default="true"/>
+      </regionals>
+      <regionals name="et-EE">
+        <database name="bolts_EN_ISO4014" fullname="EN ISO 4014 bolts" description="Hexagon head bolts - Product grades A and B" default="true"/>
+      </regionals>
+      <regionals name="lv-LV">
+        <database name="bolts_EN_ISO4014" fullname="EN ISO 4014 bolts" description="Hexagon head bolts - Product grades A and B" default="true"/>
+      </regionals>
+      <regionals name="uk-UA">
+        <database name="bolts_EN_ISO4014" fullname="EN ISO 4014 bolts" description="Hexagon head bolts - Product grades A and B" default="true"/>
+      </regionals>
+      <regionals name="hi-IN">
+        <database name="bolts_ASTM_met" fullname="ASTM bolts" description="ASTM bolts database(Metric)" default="true"/>
+      </regionals>
+      <regionals name="Eurocode">
+        <database name="bolts_EN_ISO4014" fullname="EN ISO 4014 bolts" description="Hexagon head bolts - Product grades A and B" default="true"/>
+      </regionals>
+      <regionals name="hu-HU">
+        <database name="bolts_EN_ISO4014" fullname="EN ISO 4014 bolts" description="Hexagon head bolts - Product grades A and B" default="true"/>
+      </regionals>
+      <regionals name="cs-CZ">
+        <database name="bolts_EN_ISO4014" fullname="EN ISO 4014 bolts" description="Hexagon head bolts - Product grades A and B" default="true"/>
+      </regionals>
+      <regionals name="zh-TW">
+        <database name="bolts_EN_ISO4014" fullname="EN ISO 4014 bolts" description="Hexagon head bolts - Product grades A and B" default="true"/>
+      </regionals>
+      <regionals name="pt-BR">
+        <database name="bolts_ASTM_met" fullname="ASTM bolts" description="ASTM bolts database(Metric)" default="true"/>
+      </regionals>
+	   <regionals name="af-ZA">
+        <database name="bolts_ASTM_met" fullname="ASTM bolts" description="ASTM bolts database(Metric)" default="true"/>
+      </regionals>
+      <database name="bolts_CIS"/>
+      <database name="bolts_DIN6914" fullname="DIN 6914 bolts" description="Hexagon bolts for high strenght bolting"/>
+      <database name="bolts_EN_24015" fullname="EN 24015 bolts" description="Hexagon head bolts - Product grades B - Reduced shank"/>
+      <database name="bolts_EN_ISO4016" fullname="EN ISO 4016 bolts" description="Hexagon head bolts - Product grades C"/>
+      <database name="bolts_EN_ISO4017" fullname="EN ISO 4017 screws" description="Hexagon head screws - Product grades A and B"/>
+      <database name="bolts_EN_ISO_4018" fullname="EN ISO 4018 screws" description="Hexagon head screws - Product grades C"/>
+      <database name="bolts_PN-83_M-82343" fullname="PN-83/M-82343 bolts" description="Hexagon bolts for high strenght bolting"/>
+    </catalogue>
+    <catalogue name="Materials" syspaths="sysnPTDF_DBMAT" families="no" userdbs="yes">
+      <regionals name="en-US">
+        <database name="Rmat001" fullname="American materials" description="American materials database" default="true"/>
+      </regionals>
+      <regionals name="pl-PL">
+        <database name="Rmat048" fullname="Polish materials" description="Polish materials database" default="true"/>
+      </regionals>
+      <regionals name="fr-FR">
+        <database name="Rmat033" fullname="French material" description="French materials database" default="true"/>
+      </regionals>
+      <regionals name="it-IT">
+        <database name="Rmat039" fullname="Italian material" description="Italian materials database" default="true"/>
+      </regionals>
+      <regionals name="ja-JP">
+        <database name="Rmat081" fullname="Japanese material" description="Japanese materials database" default="true"/>
+      </regionals>
+      <regionals name="zh-CN">
+        <database name="Rmat086" fullname="Chinese materials" description="Chinese materials database" default="true"/>
+      </regionals>
+      <regionals name="ko-KR">
+        <database name="Rmat001" fullname="American materials" description="American materials database" default="true"/>
+      </regionals>
+      <regionals name="de-DE">
+        <database name="Rmat049" fullname="German materials" description="German materials database" default="true"/>
+      </regionals>
+      <regionals name="ru-RU">
+        <database name="Rmat070" fullname="Russian materials" description="Russian materials database" default="true"/>
+        <database name="Rmat070A" fullname="GOST 27772-88 material" description="Russian materials database (GOST 27772-88)"/>
+        <database name="Rmat070B" fullname="GOST 535-88 materials" description="Russian materials database (GOST 535-88)"/>
+        <database name="Rmat070C" fullname="GOST 6713-91 materials" description="Russian materials database (GOST 6713-91)"/>
+      </regionals>
+      <regionals name="en-CA">
+        <database name="Rmat002" fullname="Canadian(EN) materials" description="Canadian (English) materials database" default="true"/>
+      </regionals>
+      <regionals name="fr-CA">
+        <database name="Rmat002F" fullname="Canadian(FR) materials" description="Canadian (French) materials database" default="true"/>
+      </regionals>
+      <regionals name="el-GR">
+        <database name="Rmat030" fullname="Greek materials" description="Greek materials database" default="true"/>
+      </regionals>
+      <regionals name="nl-NL">
+        <database name="Rmat031" fullname="Dutch materials" description="Dutch materials database" default="true"/>
+      </regionals>
+      <regionals name="nl-BE">
+        <database name="RmatEc2B" fullname="Eurocode(BE) materials" description="Eurocode(Belgium) materials database" default="true"/>
+      </regionals>
+      <regionals name="es-ES">
+        <database name="Rmat034" fullname="Spanish materials" description="Spanish materials database" default="true"/>
+      </regionals>
+      <regionals name="pt-PT">
+        <database name="Rmat035" fullname="Portuguese materials" description="Portuguese materials database" default="true"/>
+      </regionals>
+      <regionals name="ro-RO">
+        <database name="Rmat040" fullname="Romanian materials" description="Romanian materials database" default="true"/>
+      </regionals>
+      <regionals name="en-GB">
+        <database name="Rmat044" fullname="British materials" description="British materials database" default="true"/>
+      </regionals>
+      <regionals name="da-DK">
+        <database name="Rmat045" fullname="Danish materials" description="Danish materials database" default="true"/>
+      </regionals>
+      <regionals name="sv-SE">
+        <database name="Rmat046" fullname="Swedish materials" description="Swedish materials database" default="true"/>
+      </regionals>
+      <regionals name="nn-NO">
+        <database name="Rmat047" fullname="Norwegian materials" description="Norwegian materials database" default="true"/>
+      </regionals>
+      <regionals name="se-FI">
+        <database name="Rmat058" fullname="Finnish materials" description="Finnish materials database" default="true"/>
+      </regionals>
+      <regionals name="en-AU">
+        <database name="Rmat061" fullname="Australian materials" description="Australian materials database" default="true"/>
+      </regionals>
+      <regionals name="th-TH">
+        <database name="Rmat066" fullname="Thai materials" description="Thai materials database" default="true"/>
+      </regionals>
+      <regionals name="lt-LT">
+        <database name="Rmat071" fullname="Lithuanian materials" description="Lithuanian materials database" default="true"/>
+        <database name="Rmat070L" fullname="Russian materials" description="Russian materials database"/>
+      </regionals>
+      <regionals name="et-EE">
+        <database name="Rmat072" fullname="Estonian materials" description="Estonian materials database" default="true"/>
+      </regionals>
+      <regionals name="lv-LV">
+        <database name="Rmat074" fullname="Latvian materials" description="Latvian materials database" default="true"/>
+ `	    <database name="Rmat070L" fullname="Russian materials" description="Russian materials database"/>
+      </regionals>
+      <regionals name="uk-UA">
+        <database name="Rmat079" fullname="Ukrainian materials" description="Ukrainian materials database" default="true"/>
+      </regionals>
+      <regionals name="hi-IN">
+        <database name="Rmat091" fullname="Indian materials" description="Indian materials database" default="true"/>
+      </regionals>
+      <regionals name="Eurocode">
+        <database name="Eurocode" fullname="European materials" description="European materials database" default="true"/>
+      </regionals>
+      <regionals name="hu-HU">
+        <database name="Eurocode" fullname="European materials" description="European materials database" default="true"/>    
+      </regionals>
+      <regionals name="cs-CZ">
+    	<database name="Eurocode" fullname="European materials" description="European materials database" default="true"/>
+      </regionals>
+	  <regionals name="is-IS">
+    	<database name="Eurocode" fullname="European materials" description="European materials database" default="true"/>
+      </regionals>
+      <regionals name="zh-TW">
+      	<database name="Rmat086" fullname="Chinese materials" description="Chinese materials database" default="true"/>
+      </regionals>
+      <regionals name="pt-BR">
+        <database name="Rmat055" fullname="Brazilian materials" description="Brazilian materials database" default="true"/> 
+      </regionals>
+      <regionals name="es-MX">
+        <database name="Rmat001" fullname="American materials" description="American materials database" default="true"/>
+      </regionals>
+	 <regionals name="de-AT">
+	   <database name="Eurocode" fullname="European materials" description="European materials database" default="true"/>    
+      </regionals>
+	   <regionals name="de-CH">
+	   <database name="Eurocode" fullname="European materials" description="European materials database" default="true"/>    
+      </regionals>
+	 <regionals name="en-NZ">
+       <database name="Rmat061" fullname="Australian materials" description="Australian materials database" default="true"/>
+     </regionals>
+	  <regionals name="af-ZA">
+        <database name="Rmat044" fullname="British materials" description="British materials database" default="true"/>
+      </regionals>
+	</catalogue>
+    <catalogue name="ReinforcementBars" syspaths="sysnPTDF_DBRNF" relation="ReinforcementShapes" families="no" userdbs="no">
+      <regionals name="en-US">
+        <database name="bar_ACI 318-08" fullname="ACI 318-08" description="ACI 318-08 rebars" relation="barlib7_aci" default="true"/>
+        <database name="bar_ACI 318-08_Metric" fullname="ACI 318-08 (Metric)" description="ACI 318-08 rebars (Metric)" relation="barlib7_aci"/>
+      </regionals>
+      <regionals name="pl-PL">
+        <database name="bar_PN 2002_#" fullname="PN 2002 #" description="PN 2002 # rebars" relation="barlib7_iso" default="true"/>
+        <database name="bar_PN 2002" fullname="PN 2002" description="PN 2002 rebars" relation="barlib7_iso"/>
+        <database name="bar_PN 84" fullname="PN 84" description="PN 84 rebars" relation="barlib7_iso"/>
+        <database name="bar_EN 1992-1-1" fullname="EN 1992-1-1" description="EN 1992-1-1 rebars" relation="barlib7_iso"/>
+      </regionals>
+      <regionals name="fr-FR">
+ 	    <database name="bar_NF A 35-027" fullname="NF A 35-027" description="NF A 35-027 rebars" relation="barlib7_nf" default="true"/>
+        <database name="bar_BAEL 99" fullname="BAEL 99" description="BAEL 99 rebars" relation="barlib7_nf"/>
+        <database name="bar_BAEL M" fullname="BAEL " description="BAEL rebars" relation="barlib7_nf"/>
+        <database name="bar_BAEL M_modif" fullname="BAEL Modified " description="BAEL Modified rebars" relation="barlib7_nf"/>
+ 	    <database name="bar_EN 1992-1-1"  fullname="EN 1992-1-1" description="EN 1992-1-1 rebars" relation="barlib7_iso"/>
+      </regionals>
+      <regionals name="it-IT">
+        <database name="bar_DM" fullname="DM" description="DM rebars" relation="barlib7_iso" default="true"/>
+        <database name="bar_EC2 - Italian NAD" fullname="EC2 Italian" description="EC2 Italian NAD rebars" relation="barlib7_iso"/>
+        <database name="bar_EN 1992-1-1"  fullname="EN 1992-1-1" description="EN 1992-1-1 rebars" relation="barlib7_iso"/>      
+        <database name="bar_NTC2008"  fullname="NTC2008" description="NTC2008 rebars" relation="barlib7_iso"/>      
+     </regionals>
+      <regionals name="ja-JP">
+        <database name="bar_ACI 318-08_Metric" fullname="ACI 318-08 (Metric)" description="ACI 318-08 rebars (Metric)" relation="barlib7_aci" default="true"/>
+        <database name="bar_ACI 318-08" fullname="ACI 318-08" description="ACI 318-08 rebars" relation="barlib7_aci"/>
+      </regionals>
+      <regionals name="zh-CN">
+        <database name="bar_GB_50010_2002" fullname="GB 50010 2002" description="GB 50010 2002 rebars" relation="barlib7_iso" default="true"/>
+      </regionals>
+      <regionals name="ko-KR">
+        <database name="bar_ACI 318-08" fullname="ACI 318-08" description="ACI 318-08 rebars" relation="barlib7_aci" default="true"/>
+        <database name="bar_ACI 318-08_Metric" fullname="ACI 318-08 (Metric)" description="ACI 318-08 rebars (Metric)" relation="barlib7_aci"/>
+      </regionals>
+      <regionals name="de-DE">
+        <database name="bar_EN 1992-1-1"  fullname="EN 1992-1-1" description="EN 1992-1-1 rebars" relation="barlib7_iso" default="true"/>      
+        <database name="bar_DIN 1045"  fullname="DIN 1045" description="DIN 1045 rebars" relation="barlib7_iso"/>      
+      </regionals>
+      <regionals name="ru-RU">
+        <database name="bar_SNIP 2.03.01-84" fullname="SNIP 2.03.01-84" description="SNIP 2.03.01-84 rebars" relation="barlib7_iso" default="true"/>
+      </regionals>
+      <regionals name="en-CA">
+        <database name="bar_CSA A23.3-94"  fullname="CSA A23.3-94" description="CSA A23.3-94 rebars"  relation="barlib7_iso" default="true"/>
+        <database name="bar_ACI 318-08" fullname="ACI 318-08" description="ACI 318-08 rebars" relation="barlib7_aci"/>
+        <database name="bar_ACI 318-08_Metric" fullname="ACI 318-08 (Metric)" description="ACI 318-08 rebars (Metric)" relation="barlib7_aci"/>
+      </regionals>
+      <regionals name="fr-CA">
+        <database name="bar_CSA A23.3-94"   fullname="CSA A23.3-94" description="CSA A23.3-94 rebars"  relation="barlib7_iso" default="true"/>
+    	<database name="bar_ACI 318-08_Metric" fullname="ACI 318-08 (Metric)" description="ACI 318-08 rebars (Metric)" relation="barlib7_aci"/>    
+    	<database name="bar_ACI 318-08"  fullname="ACI 318-08" description="ACI 318-08 rebars" relation="barlib7_aci"/> 
+      </regionals>
+      <regionals name="el-GR">
+        <database name="bar_EN 1992-1-1" fullname="EN 1992-1-1" description="EN 1992-1-1 rebars" relation="barlib7_iso" default="true"/>
+      </regionals>
+      <regionals name="nl-NL">
+        <database name="bar_NEN-EN" fullname="EC2 Dutch" description="EC2 Dutch NAD rebars" relation="barlib7_iso" default="true"/>
+ 	    <database name="bar_EN 1992-1-1"  fullname="EN 1992-1-1" description="EN 1992-1-1 rebars" relation="barlib7_iso"/>
+      </regionals>
+      <regionals name="nl-BE">
+        <database name="bar_NBN B 15-002" fullname="EC2 Belgian" description="EC2 Belgian NAD rebars" relation="barlib7_iso" default="true"/>
+ 	<database name="bar_EN 1992-1-1"  fullname="EN 1992-1-1" description="EN 1992-1-1 rebars" relation="barlib7_iso"/>
+      </regionals>
+      <regionals name="es-ES">
+        <database name="bar_EHE"  fullname="EHE 99" description="EHE 99 rebars"   relation="barlib7_iso" default="true"/>
+ 	    <database name="bar_EN 1992-1-1"  fullname="EN 1992-1-1" description="EN 1992-1-1 rebars" relation="barlib7_iso"/>
+      </regionals>
+      <regionals name="pt-PT">
+        <database name="bar_EN 1992-1-1" fullname="EN 1992-1-1" description="EN 1992-1-1 rebars" relation="barlib7_iso" default="true"/>
+        <database name="bar_prEN1992-1-1" fullname="prEN 1992-1-1" description="prEN 1992-1-1 rebars" relation="barlib7_iso"/>
+      </regionals>
+      <regionals name="ro-RO">
+        <database name="bar_STAS 10107_090" fullname="STAS 10107 090" description="STAS 10107 090 rebars" relation="barlib7_gb" default="true"/>
+	 <database name="bar_EN 1992-1-1"  fullname="EN 1992-1-1" description="EN 1992-1-1 rebars" relation="barlib7_iso"/>
+      </regionals>
+      <regionals name="en-GB">
+        <database name="bar_BS 8666_2000" fullname="BS 8666 2000" description="BS 8666 2000 rebars" relation="barlib7_bs" default="true"/>
+ 	    <database name="bar_EN 1992-1-1"  fullname="EN 1992-1-1" description="EN 1992-1-1 rebars" relation="barlib7_iso"/>
+	    <database name="bar_BS 8666_2005" fullname="BS 8666 2005" description="BS 8666 2005 rebars" relation="barlib7_bs" /> 
+      </regionals>
+      <regionals name="da-DK">
+        <database name="bar_DS411" fullname="DS 411" description="DS 411 rebars" relation="barlib7_iso" default="true"/>
+        <database name="bar_EN 1992-1-1" fullname="EN 1992-1-1" description="EN 1992-1-1 rebars" relation="barlib7_iso"/>
+      </regionals>
+      <regionals name="sv-SE">
+        <database name="bar_BBK04" fullname="BBK 2004" description="BBK 2004 rebars" relation="barlib7_iso" default="true"/>
+        <database name="bar_EN 1992-1-1" fullname="EN 1992-1-1" description="EN 1992-1-1 rebars" relation="barlib7_iso"/>
+      </regionals>
+      <regionals name="nn-NO">
+        <database name="bar_NS 3473E 1999" fullname="NS 3473E 1999" description="NS 3473E 1999 rebars" relation="barlib7_ns" default="true"/>
+      </regionals>
+      <regionals name="se-FI">
+        <database name="bar_SFS-EN 206-1" fullname="SFS EN 206-1" description="SFS EN 206-1 rebars"  relation="barlib7_iso" default="true"/>
+        <database name="bar_SFS-EN 1992-1-1" fullname="SFS-EN 1992-1-1" description="SFS-EN 1992-1-1 rebars" relation="barlib7_iso"/> 
+        <database name="bar_EN 1992-1-1" fullname="EN 1992-1-1" description="EN 1992-1-1 rebars" relation="barlib7_iso"/>
+      </regionals>
+      <regionals name="en-AU">
+        <database name="bar_AS 3600" fullname="AS 3600" description="AS 3600" relation="barlib7_bs" default="true"/>
+		<database name="bar_ACI 318-08_Metric" fullname="ACI 318-08 (Metric)" description="ACI 318-08 rebars (Metric)" relation="barlib7_aci"/>
+      </regionals>
+      <regionals name="en-NZ">
+        <database name="bar_NZS 3101_2006" fullname="NZS 3101 2006" description="NZS 3101 2006" relation="barlib7_bs" default="true"/>
+      </regionals>
+      <regionals name="th-TH">
+        <database name="bar_ACI 318-08_Metric" fullname="ACI 318-08 (Metric)" description="ACI 318-08 rebars (Metric)" relation="barlib7_aci" default="true"/>
+      </regionals>
+      <regionals name="lt-LT">
+        <database name="bar_EN 1992-1-1" fullname="EN 1992-1-1" description="EN 1992-1-1 rebars" relation="barlib7_iso" default="true"/>
+      </regionals>
+      <regionals name="et-EE">
+        <database name="bar_ESTONIA" fullname="Estonian rebars" description="EEstonian rebars" relation="barlib7_iso" default="true"/>
+        <database name="bar_EN 1992-1-1" fullname="EN 1992-1-1" description="EN 1992-1-1 rebars" relation="barlib7_iso"/>
+        <database name="bar_SNIP 2.03.01-84" fullname="SNIP 2.03.01-84" description="SNIP 2.03.01-84 rebars" relation="barlib7_iso"/>
+      </regionals>
+      <regionals name="lv-LV">
+        <database name="bar_EN 1992-1-1" fullname="EN 1992-1-1" description="EN 1992-1-1 rebars" relation="barlib7_iso" default="true"/>
+        <database name="bar_SNIP 2.03.01-84" fullname="SNIP 2.03.01-84" description="SNIP 2.03.01-84 rebars" relation="barlib7_iso"/>
+      </regionals>
+      <regionals name="uk-UA">
+        <database name="bar_DSTU 3760-98" fullname="DSTU 3760-98" description="DSTU 3760-98 rebars" relation="barlib7_iso" default="true"/>
+        <database name="bar_SNIP 2.03.01-84"  fullname="SNIP 2.03.01-84" description="SNIP 2.03.01-84 rebars" relation="barlib7_iso"/>
+      </regionals>
+      <regionals name="hi-IN">
+        <database name="bar_IS_456_2000"  fullname="IS 456 2000" description="IS 456 2000 rebars" relation="barlib7_bs" default="true"/>
+      </regionals>
+	  <regionals name="is-IS">
+        <database name="bar_EC2 - Iceland" fullname="EC2 Icelandish" description="EC2 Icelandish NAD rebars"  relation="barlib7_iso" default="true"/>
+      </regionals>
+      <regionals name="Eurocode">
+        <database name="bar_EN 1992-1-1"  fullname="EN 1992-1-1" description="EN 1992-1-1 rebars" relation="barlib7_iso" default="true"/>
+        <database name="bar_EC2 - Iceland" fullname="EC2 Icelandish" description="EC2 Icelandish NAD rebars"  relation="barlib7_iso"/>
+        <database name="bar_EC2 - Italian NAD" fullname="EC2 Italian" description="EC2 Italian NAD rebars" relation="barlib7_iso"/>
+        <database name="bar_NEN-EN" fullname="EC2 Dutch" description="EC2 Dutch NAD rebars" relation="barlib7_iso"/>
+      </regionals>
+      <regionals name="hu-HU">
+     	<database name="bar_EN 1992-1-1"  fullname="EN 1992-1-1" description="EN 1992-1-1 rebars" relation="barlib7_iso" default="true"/>
+      </regionals>
+      <regionals name="cs-CZ">
+    	<database name="bar_EN 1992-1-1"  fullname="EN 1992-1-1" description="EN 1992-1-1 rebars" relation="barlib7_iso" default="true"/>
+      </regionals>
+      <regionals name="zh-TW">
+        <database name="bar_GB_50010_2002" fullname="GB 50010 2002" description="GB 50010 2002 rebars" relation="barlib7_iso" default="true"/>
+      </regionals>
+      <regionals name="pt-BR">
+   	    <database name="bar_ACI 318-08_Metric" fullname="ACI 318-08 (Metric)" description="ACI 318-08 rebars (Metric)" relation="barlib7_aci" default="true"/>
+      </regionals>
+	   <regionals name="es-MX">
+   	    <database name="bar_ACI 318-08_Metric" fullname="ACI 318-08 (Metric)" description="ACI 318-08 rebars (Metric)" relation="barlib7_aci" default="true"/>
+      </regionals>
+      <regionals name="af-ZA">
+        <database name="bar_SABS 82_1997" fullname="SABS 82 1997" description="SABS 82 1997 rebars" relation="barlib7_sabs" default="true"/>      
+      </regionals>
+      <regionals name="de-AT">
+        <database name="bar_ONORM B 4700" fullname="ONORM B 4700" description="ONORM B 4700 rebars" relation="barlib7_iso"/>
+      </regionals>
+	  <regionals name="de-CH">
+    	<database name="bar_EN 1992-1-1"  fullname="EN 1992-1-1" description="EN 1992-1-1 rebars" relation="barlib7_iso" default="true"/>
+      </regionals>
+      	<database name="bar_CP65" fullname="CP65" description="CP65 rebars" relation="barlib7_bs" default="true"/>
+      	<database name="bar_ECCS_203_2001" fullname="ECCS_203_2001" description="ECCS 203 2001 rebars" relation="barlib7_iso"/>
+      	<database name="bar_EN 1992-1-2" fullname="EN 1992-1-2" description="EN 1992-1-2 rebars" relation="barlib7_bs"/>
+      	<database name="bar_ONORM B 4700" fullname="ONORM B 4700" description="ONORM B 4700 rebars" relation="barlib7_iso"/>
+      	<database name="bar_SFS-EN 1992-1-1" fullname="SFS-EN 1992-1-1" description="SFS-EN 1992-1-1 rebars" relation="barlib7_iso"/>
+      	<database name="bar_SIA 162 1989" fullname="SIA 162 1989" description="SIA 162 1989 rebars" relation="barlib7_iso"/>
+      	<database name="bar_SNB 5.03.01-02" fullname="SNB 5.03.01-02" description="SNB 5.03.01-02 rebars" relation="barlib7_iso"/>
+      	<database name="bar_SP 52-101-03" fullname="SP 52-101-03" description="SP 52-101-03 rebars" relation="barlib7_iso"/>
+    </catalogue>
+    <catalogue visible="false" name="ReinforcementShapes" syspaths="sysnPTDF_DBRNF" families="no" userdbs="no">
+      <database name="barlib7_aci" fullname="ACI"/>
+      <database name="barlib7_aci_2009" fullname="ACI"/>
+      <database name="barlib7_bs" fullname="BS"/>
+      <database name="barlib7_gb" fullname="GB"/>
+      <database name="barlib7_iso" fullname="ISO"/>
+      <database name="barlib7_nf" fullname="NF"/>
+      <database name="barlib7_ns" fullname="NS"/>
+      <database name="barlib7_pn" fullname="PN"/>
+      <database name="barlib7_sabs" fullname="SABS"/>
+      <database name="barlib7_sp" fullname="SP"/>
+      <database name="barlib7_uni" fullname="UNI"/>
+    </catalogue>
+  </catalogues>
+</ROXML>
